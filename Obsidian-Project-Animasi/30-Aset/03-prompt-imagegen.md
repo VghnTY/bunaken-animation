@@ -1,0 +1,48 @@
+---
+tags: [aset, prompt, imagegen]
+---
+
+# Prompt Image-Generation
+
+Prompt lengkap (**15 prompt Gemini 2.5 Flash Image**) ada di file repo:
+
+→ [`docs/prompts-imagegen.md`](../../docs/prompts-imagegen.md)
+
+## Ringkasan cara pakai
+
+1. Model: **Gemini 2.5 Flash Image**
+2. Prompt dalam **Bahasa Inggris**
+3. Maksimal **3 gambar referensi** per prompt:
+   - `ref-environment-bunaken.jpg` — foto aerial Bunaken
+   - `ref-char-nara-sheet.png` — character sheet Nara
+   - `ref-char-haris-sheet.png` — character sheet Pak Haris
+4. Seed tetap per scene: `20261102` (Scene 1), `20261103` (Scene 2), dst.
+5. Selalu tempel **STYLE BLOCK** dan **NEGATIVE** yang ada di file repo.
+
+## Urutan pengerjaan
+
+1. Prompt **02** (character sheet Nara) — hasilnya dipakai sebagai referensi
+   untuk semua prompt berikutnya.
+2. Prompt **04** dan **05** (Pak Daniel, Pak Haris).
+3. Prompt **06–09** (environment Bunaken).
+4. Prompt **10–12** (frame Scene 1).
+5. Prompt **13–15** (Scene 2 dan 4) menyusul setelah shot list scene tersebut
+   selesai.
+
+## Penyimpanan hasil
+
+```
+storyboard/frames/scene-1/scene-1_shot-010_v001.png
+assets/char/ref-char-nara-sheet.png
+assets/env/ref-env-aerial.png
+```
+
+## Kalau hasil melenceng
+
+- Wajah beda → ulangi dengan hanya 1 character sheet + "match the attached
+  character sheet exactly".
+- Air neon → tambahkan "muted turquoise, natural water color".
+- Terlalu fotorealistis → tambahkan "clearly stylized, simplified forms,
+  animation look".
+
+Detail lengkap ada di `docs/prompts-imagegen.md`.

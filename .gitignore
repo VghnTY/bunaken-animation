@@ -1,0 +1,53 @@
+# Tooling lokal (skill, cache agent) — tidak perlu dibagikan
+.opencode/
+
+# Blender
+*.blend1
+*.blend2
+*.blend@
+*.blend[0-9]
+*.crash.txt
+
+# Backup & cache
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+/tmp/
+
+# Obsidian: jangan commit state pribadi
+Obsidian-Project-Animasi/.obsidian/workspace.json
+Obsidian-Project-Animasi/.obsidian/workspace-mobile.json
+Obsidian-Project-Animasi/.obsidian/cache
+
+# Render, video, gambar hasil render TIDAK masuk git.
+# Simpan di Google Drive / GitHub Releases, catat link di docs/renders.md
+renders/*
+!renders/README.md
+!renders/animatic/
+!renders/stills/
+renders/animatic/*
+!renders/animatic/.gitkeep
+renders/stills/*
+!renders/stills/.gitkeep
+# Format video & image sequence
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.exr
+*.dpx
+*.tif
+
+# File proyek audio/DAW (audio final .wav tetap di-commit)
+*.aup3
+*.flp
+*.logicx
+*.als
+*.rpp
+*.ptx
+
+# File >50 MB tidak boleh masuk (tanpa LFS)
+# Blender: jangan pack tekstur!

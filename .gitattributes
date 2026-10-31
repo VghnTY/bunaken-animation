@@ -1,0 +1,20 @@
+# Normalisasi line ending — hindari "seluruh file berubah" di Windows
+* text=auto
+
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+
+# Biner — jangan diubah git
+*.blend binary
+*.blend1 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.mp3 binary
+*.mp4 binary
+*.exr binary
