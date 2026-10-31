@@ -52,7 +52,7 @@ Kalimat ini **wajib** muncul di credit film.
 
 - Cerita → [[01-premis]] · [[02-sinopsis]] · [[03-tokoh]] · [[04-dunia-bunaken]]
 - Produksi → [[03-gaya-visual]] · [[04-spesifikasi-teknis]]
-- Kerja tim → [[03-tim]] · [[04-jadwal]] · [[04-tugas-scene-1]]
+- Kerja tim → [[03-tim]] · [[04-jadwal]] · [[04-tugas-scene-1]] · [[06-urutan-kerja]]
 - Git → [[01-alur-git]]
 
 ## Risiko yang sudah diketahui

@@ -15,7 +15,7 @@ tags: [produksi, teknis]
 | Output per scene | MP4 (H.264) + PNG sequence untuk arsip |
 | Penggabungan | 4 scene digabung di tahap akhir (DaVinci/Premiere/FFmpeg) |
 
-**Kenapa EEVEE:** 9 orang, waktu terbatas, tanpa render farm. Cycles akan
+**Kenapa EEVEE:** 8 orang, waktu terbatas, tanpa render farm. Cycles akan
 menghabiskan waktu di lighting, bukan di cerita.
 
 ## Format file
@@ -58,4 +58,4 @@ Lihat [[02-konvensi-penamaan]].
 
 - Tanpa Git LFS → **jangan pack tekstur** di `.blend`, jaga file <50 MB
 - Tanpa render farm → hindari volumetrik berat dan simulasi air skala besar
-- 9 orang pemula → setiap file harus bisa dibuka sendiri tanpa dependensi aneh
+- 8 orang pemula → setiap file harus bisa dibuka sendiri tanpa dependensi aneh

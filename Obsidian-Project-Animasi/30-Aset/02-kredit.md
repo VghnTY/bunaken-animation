@@ -25,14 +25,13 @@ WARISAN BUNAKEN
 Sebuah animasi oleh [Nama Kelompok]
 [Program Studi / Mata Kuliah] — [Universitas] — 2026
 
-SUTRADARA            Jasiel
+SUTRADARA            Jasiel Wowiling
 STORYBOARD           Anggota 2
 ENVIRONMENT          Anggota 3, Anggota 4
 KARAKTER             Anggota 5
 RIGGING & ANIMASI    Anggota 6
 LIGHTING & SHADING   Anggota 7
-AUDIO & NARASI       Anggota 8
-EDITOR & DOKUMENTASI Anggota 9
+AUDIO, EDIT & DOKUM. Anggota 8, Jasiel Wowiling
 
 NARASI               [nama pengisi suara]
 

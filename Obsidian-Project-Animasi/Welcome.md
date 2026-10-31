@@ -20,7 +20,7 @@ Mulai dari sini:
 - [[01-daftar-aset]] · [[02-kredit]] · [[03-prompt-imagegen]]
 
 ## Panduan kerja
-- [[01-alur-git]] · [[02-konvensi-penamaan]] · [[03-pipeline-blender]] · [[04-tugas-scene-1]] · [[05-panduan-ai]]
+- [[01-alur-git]] · [[02-konvensi-penamaan]] · [[03-pipeline-blender]] · [[04-tugas-scene-1]] · [[05-panduan-ai]] · [[06-urutan-kerja]]
 
 ## Rapat
 - [[2026-10-31-kickoff]] · [[2026-10-31-pengumuman-wa]]
