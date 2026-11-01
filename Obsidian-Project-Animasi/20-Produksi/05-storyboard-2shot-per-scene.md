@@ -16,7 +16,8 @@ per shot — untuk Scene 1 yang detail tetap pakai
 
 | Item | Nilai |
 |---|---|
-| Path | `storyboard/frames/storyboard-2shot-per-scene_v001.png` |
+| Path | `storyboard/frames/storyboard-2shot-per-scene_v001.jpg` |
+| Resolusi | 1792 × 2400 px (3:4), JPEG ±3 MB |
 | Prompt | `docs/prompts-imagegen.md` — bagian **00** |
 | Seed | `20261102` |
 | Referensi | foto aerial Bunaken |

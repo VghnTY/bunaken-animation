@@ -79,7 +79,9 @@ Dipakai untuk **menyusun storyline storyboard** dari `10-Cerita/02-sinopsis.md`:
 satu baris = satu scene, panel kiri = shot pembuka scene, panel kanan = shot
 titik belok scene. Satu kali generate, satu gambar.
 
-Output: `storyboard/frames/storyboard-2shot-per-scene_v001.png`
+Output: `storyboard/frames/storyboard-2shot-per-scene_v001.jpg`
+(hasil Gemini keluar sebagai JPEG; simpan apa adanya, jangan di-rename ke
+`.png`)
 
 ```
 A single storyboard sheet for a 4-scene short animated film set in Bunaken
